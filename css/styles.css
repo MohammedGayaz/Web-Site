@@ -40,42 +40,14 @@ hr {
 
 
 /* class selectors */
-.profile {
-    position: relative;
-    text-align: left;
-    color: #ebdbb2;
-}
-
-/* profile name position */
-.profile-name {
-    position: absolute;
-    top: 0%;
-    left: 5%;
-    margin: 0px;
-}
-
-.nav {
-    line-height: 1.5;
-    text-decoration: underline;
-    position: absolute;
-    bottom: 10%;
-    right : 10%
-}
-
-
-.background-image {
-    width: 100%;
-}
-
 
 .profile-pic {
-    padding: 100px;
-    padding-bottom: 50px;
     width: 150px;
     height: 150px;
+    margin: 100px;
 }
 
-.intro-msg {
+.intro {
     width: 85%;
     margin: auto;
     padding: 50px;
@@ -99,8 +71,9 @@ hr {
 .contact-me {
     width: 85%;
     margin: auto;
-    text-align: left;
     padding: 50px;
+    padding-bottom: 0px;
+    text-align: left;
 }
 
 .copy-ryt {
@@ -111,6 +84,8 @@ hr {
 .middle-container {
     width: 85%;
     margin: auto;
+    padding: 50px;
+    padding-bottom: 0px;
     text-align: left;
 }
 .bottom-container {
@@ -140,32 +115,3 @@ hr {
 .dics {
     font-family: 'Alkatra', cursive;
 }
-
-
-.btn {
-    background: #7081c7;
-    background-image: -webkit-linear-gradient(top, #7081c7, #bd82a0);
-    background-image: -moz-linear-gradient(top, #7081c7, #bd82a0);
-    background-image: -ms-linear-gradient(top, #7081c7, #bd82a0);
-    background-image: -o-linear-gradient(top, #7081c7, #bd82a0);
-    background-image: linear-gradient(to bottom, #7081c7, #bd82a0);
-    -webkit-border-radius: 60;
-    -moz-border-radius: 60;
-    border-radius: 60px;
-    text-shadow: 1px 1px 3px #666666;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 16px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #d44a6c;
-    background-image: -webkit-linear-gradient(top, #d44a6c, #646cde);
-    background-image: -moz-linear-gradient(top, #d44a6c, #646cde);
-    background-image: -ms-linear-gradient(top, #d44a6c, #646cde);
-    background-image: -o-linear-gradient(top, #d44a6c, #646cde);
-    background-image: linear-gradient(to bottom, #d44a6c, #646cde);
-    text-decoration: none;
-  }
